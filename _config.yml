@@ -1,0 +1,56 @@
+url: https://ejfpribeiro.github.io
+baseurl: /me
+
+# Site settings
+title: Eduardo Ribeiro
+email: eduardo@erib.me
+description: Passionate food lover, Specialist in Hydrogen and Syngas Technology, dedicated to reliable, safe and optimal plant operation
+disqus_shortname: ejfpribeiro
+
+search:           true
+share:            true
+readtime:         true
+wpm:				      200
+
+# Social networks usernames
+social:
+  - title: twitter
+    url: https://twitter.com/ejfpribeiro
+  - title: facebook
+    url: https://www.facebook.com/ejfpribeiro
+  - title: pinterest
+    url: https://www.pinterest.com/ejfpribeiro/
+
+# Postal address
+address:
+  - line: Walenburgerweg 45C
+  - line: 3039AC Rotterdam, The Netherlands
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Europe/Amsterdam
+future:      true
+
+# Build settings
+highlighter: pygments
+markdown:    kramdown
+paginate:    6
+paginate_path: "page:num"
+permalink:   /:categories/:year/:month/:day/:title.html
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+  coderay:
+    coderay_line_numbers:
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
