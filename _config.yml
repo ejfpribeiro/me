@@ -33,7 +33,7 @@ timezone:    Europe/Amsterdam
 future:      true
 
 # Build settings
-highlighter: pygments
+#highlighter: pygments
 markdown:    kramdown
 paginate:    6
 paginate_path: "page:num"
@@ -45,6 +45,8 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
+  input: GFM
+  highlighter: rouge
 
 markdown_ext:  markdown,mkd,mkdn,md
 textile_ext:   textile
